@@ -3,7 +3,7 @@ import { experience } from "../data/portfolioData";
 
 export default function ExperienceCard() {
   return (
-    <BentoCard id="experience" className="md:col-span-5 row-span-1 p-8">
+    <BentoCard id="experience" className="md:col-span-2 lg:col-span-5 row-span-1 p-6 md:p-8">
       <h2 className="text-2xl font-bold mb-6">
         <span className="section-number">04 — </span> Experience
       </h2>

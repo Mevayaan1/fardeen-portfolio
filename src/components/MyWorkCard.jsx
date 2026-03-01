@@ -25,7 +25,7 @@ export default function MyWorkCard() {
   const featuredProjects = projects.slice(0, 4);
 
   return (
-    <BentoCard id="mywork" className="md:col-span-2 lg:col-span-3 p-8">
+    <BentoCard id="mywork" className="md:col-span-1 lg:col-span-3 p-6 md:p-8">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <h2 className="text-3xl font-bold">

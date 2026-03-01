@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className="container  mx-auto px-4 sm:px-6 lg:px-4 pt-14 pb-16">
       
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-8 mb-6 auto-rows-[minmax(200px,auto)]">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-6 md:gap-6 lg:gap-8 mb-6 auto-rows-[minmax(200px,auto)]">
           <HeroCard />
           {/* <ExperienceCard /> */}
           
