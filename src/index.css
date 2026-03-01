@@ -269,4 +269,26 @@
   .border-top-card {
     border-top-color: rgba(255, 255, 255, 0.06) !important;
   }
+
+  /* Styled scrollbar to match theme */
+  .styled-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(244, 166, 58, 0.35) rgba(255, 255, 255, 0.06);
+  }
+  .styled-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .styled-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+  }
+  .styled-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+  }
+  .styled-scrollbar::-webkit-scrollbar-thumb:hover {
+    box-shadow: 0 0 10px var(--accent-glow);
+  }
 }

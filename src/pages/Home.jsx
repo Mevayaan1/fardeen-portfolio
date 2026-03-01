@@ -5,6 +5,7 @@ import MyWorkCard from "../components/MyWorkCard";
 import ExperienceCard from "../components/Experience";
 import SkillsCard from "../components/SkillsCard";
 import ContactCard from "../components/ContactCard";
+import CertificatesCard from "../components/CertificatesCard";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
           
           <AboutCard />
           <MyWorkCard />
-          <ExperienceCard />
+          <SkillsCard />
           
         </section>
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6 auto-rows-[minmax(280px,auto)]">
@@ -27,7 +28,8 @@ export default function Home() {
           
         </section>
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[minmax(280px,auto)]">
-          <SkillsCard />
+          <ExperienceCard />
+          <CertificatesCard />
           <ContactCard />
         </section>
       </main>

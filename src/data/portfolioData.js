@@ -44,6 +44,170 @@ export const skills = {
   TOOLS: ["Git", "GitHub", "Postman", "Figma"],
 };
 
+export const techStackCategories = [
+  {
+    key: "LANGUAGES",
+    title: "Languages",
+    items: ["Dart", "Kotlin", "Java", "JavaScript", "C/C++"],
+  },
+  {
+    key: "FRAMEWORKS_FRONTEND",
+    title: "Frameworks & Frontend",
+    items: ["Flutter", "Android SDK", "Material Design", "Responsive UI"],
+  },
+  {
+    key: "BACKEND_APIS",
+    title: "Backend & APIs",
+    items: ["Firebase", "REST APIs", "JSON", "HTTP Integration"],
+  },
+  {
+    key: "DATABASE",
+    title: "Database",
+    items: ["Firestore", "SQLite", "Hive", "Supabase"],
+  },
+  {
+    key: "STATE_MANAGEMENT",
+    title: "State Management",
+    items: ["Provider", "GetX", "setState", "MVC"],
+  },
+  {
+    key: "STORAGE_MEDIA",
+    title: "Storage & Media",
+    items: [
+      "Storage Access Framework (SAF)",
+      "MediaStore API",
+      "Scoped Storage",
+      "File Handling",
+    ],
+  },
+  {
+    key: "ARCHITECTURE",
+    title: "Architecture",
+    items: ["MVC", "Clean Architecture", "Modular Architecture"],
+  },
+  {
+    key: "TOOLS",
+    title: "Tools",
+    items: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Android Studio",
+      "VS Code",
+      "Gradle",
+      "Play Console",
+    ],
+  },
+  {
+    key: "ANDROID_PLAY_STORE",
+    title: "Android & Play Store",
+    items: [
+      "Play Store Publishing Policy Compliance",
+      "Permission Handling",
+      "Android 11–14+",
+    ],
+  },
+  {
+    key: "CURRENTLY_LEARNING",
+    title: "Currently Learning",
+    items: [
+      "Advanced Clean Architecture",
+      "Advanced Kotlin",
+      "System Design",
+    ],
+  },
+];
+
+export const skillsCategories = [
+  {
+    key: "LANGUAGES",
+    title: "Languages",
+    items: ["Dart", "Java", "JavaScript", "SQL", "Python (Basic)"],
+  },
+  {
+    key: "FRONTEND",
+    title: "Frontend",
+    items: [
+      "Flutter",
+      "Android (Native Basics)",
+      "Responsive UI",
+      "Material UI",
+      "Custom Widgets",
+    ],
+  },
+  {
+    key: "BACKEND_SERVICES",
+    title: "Backend & Services",
+    items: [
+      "Firebase Authentication",
+      "Cloud Firestore",
+      "Firebase Storage",
+      "REST APIs Integration",
+      "Payment Gateway Integration (Razorpay)",
+      "Push Notifications",
+    ],
+  },
+  {
+    key: "STATE_MANAGEMENT",
+    title: "State Management",
+    items: [
+      "Provider",
+      "MVC Architecture",
+      "Clean Architecture",
+      "SetState",
+      "InheritedWidget (Basic)",
+    ],
+  },
+  {
+    key: "DATABASES",
+    title: "Databases",
+    items: ["Firebase", "Firestore", "SQLite", "Hive (Basic)", "SQL"],
+  },
+  {
+    key: "ARCHITECTURE_PATTERNS",
+    title: "Architecture & Patterns",
+    items: [
+      "MVC",
+      "Clean Architecture",
+      "Repository Pattern",
+      "Modular Architecture",
+    ],
+  },
+  {
+    key: "TOOLS",
+    title: "Tools",
+    items: [
+      "Git",
+      "GitHub",
+      "Android Studio",
+      "VS Code",
+      "Postman",
+      "Figma",
+      "Firebase Console",
+    ],
+  },
+  {
+    key: "TESTING_DEBUGGING",
+    title: "Testing & Debugging",
+    items: [
+      "Flutter Debugging",
+      "Performance Optimization",
+      "Error Handling",
+      "Production Build & Release",
+    ],
+  },
+  {
+    key: "DEPLOYMENT",
+    title: "Deployment",
+    items: [
+      "Google Play Store Deployment",
+      "App Signing",
+      "Release Management",
+      "Play Console",
+    ],
+  },
+];
+
 export const experience = [
   {
     role: "Flutter & Android Developer",
@@ -77,3 +241,5 @@ export const about = {
     { value: "10K+", label: "Concurrent Users Optimized" },
   ],
 };
+
+export const certificates = [];

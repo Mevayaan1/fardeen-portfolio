@@ -14,7 +14,7 @@ export default function HeroCard() {
             01 — Developer
           </span>
 
-          <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold leading-tight">
             Building digital products.
           </h1>
 
