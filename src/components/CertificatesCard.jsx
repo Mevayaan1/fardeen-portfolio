@@ -3,7 +3,8 @@ import { certificates } from "../data/portfolioData";
 
 export default function CertificatesCard() {
   return (
-    <BentoCard id="certificates" className="md:col-span-2 p-6 md:p-8">
+    // moved to the work card position, shrink to the same span
+    <BentoCard id="certificates" className="md:col-span-1 lg:col-span-3 p-6 md:p-8">
       <h2 className="text-2xl font-bold mb-4">
         <span className="section-number">07 — </span> Certificates
       </h2>

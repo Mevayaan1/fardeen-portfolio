@@ -21,7 +21,8 @@ function getSkillBadgeColor(skill) {
 
 export default function SkillsCard() {
   return (
-    <BentoCard className="md:col-span-2 lg:col-span-5 row-span-1 p-6 md:p-8">
+    // now in its own row, span full width of section
+    <BentoCard className="md:col-span-2 lg:col-span-4 row-span-1 p-6 md:p-8">
       <div className="h-full flex flex-col space-y-6">
         <h2 className="text-2xl font-bold">
           <span className="section-number">05 — </span> Skills
